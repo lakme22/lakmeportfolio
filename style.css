@@ -1,0 +1,10 @@
+.container1{
+    background-image: url("https://images.pexels.com/photos/462118/pexels-photo-462118.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-position: center ;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  height:400px;
+    /* or whatever width you want. */
+   display: block;
+}
