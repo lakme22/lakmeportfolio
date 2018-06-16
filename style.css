@@ -1,5 +1,5 @@
 .Navbar {
-  background-color: #00ffff;
+  background-color: #fffafa;
   display: flex;
   padding: 16px;
   font-family: sans-serif;
@@ -67,7 +67,7 @@ body{
 footer{
   padding:20px;
   margin-top:20px;
-  color:#ffffff;
+  color:#fffafa;
   background-color:#e8491d;
   text-align: center;
 }
