@@ -17,7 +17,7 @@ float: left;
   color: white;
 }
 .Navbar__Link {
-  padding-right: 8px;
+  padding-right: 16px;
 }
 .Navbar__Items {
   display: flex;
