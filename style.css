@@ -18,6 +18,7 @@ float: left;
 }
 .Navbar__Link {
   padding-right: 16px;
+  margin-left: 30px;
 }
 .Navbar__Items {
   display: flex;
