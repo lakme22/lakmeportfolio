@@ -1,15 +1,17 @@
 .header img {
+ display:block;
+height:70px;
+width:250px;
+position:absolute;
+left:20px;
+top:13px;
+border: none;
+padding: 0;
+margin:0;
+z-index: 10;
   float: left;
-  width: auto;
-  height: 20px;
-  background: #555;
-}
+  }
 
-.header h1 {
-  position: relative;
-  top: 18px;
-  left: 10px;
-}
 .Navbar {
   background-color: #000000;
   display: flex;
