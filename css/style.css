@@ -96,7 +96,7 @@ body
 
 .container1
 {
-  background-image: url(./img/lakme.jpg);
+  background-image: url(lakme.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 400px;
