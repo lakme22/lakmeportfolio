@@ -1,17 +1,17 @@
-.header 
-{
-height: 70px;
-width: 250px;
-position: absolute;
-top: 13px;
-border: none;
-padding: 0;
-margin: 0;
-float: left;
-  }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.header {
+  height: 70px;
+  width: 250px;
+  position: absolute;
+  top: 13px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
 
-.Navbar
-{
+.Navbar {
   background-color: #000000;
   display: flex;
   padding: 16px;
@@ -19,93 +19,70 @@ float: left;
   color: white;
 }
 
-.Navbar__Link 
-{
+.Navbar__Link {
   padding-right: 16px;
   margin-left: 30px;
 }
 
-.Navbar__Items 
-{
+.Navbar__Items {
   display: flex;
 }
 
-.Navbar__Items--right
-{
+.Navbar__Items--right {
   margin-left: auto;
 }
 
-.Navbar__Link-toggle 
-{
+.Navbar__Link-toggle {
   display: none;
 }
 
-@media only screen and (max-width: 768px)
-{
-  .Navbar__Items,.Navbar 
- {
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
     flex-direction: column;
   }
- 
-.Navbar__Items 
- {
+
+  .Navbar__Items {
     display: none;
   }
- 
-.Navbar__Items--right 
- {
+
+  .Navbar__Items--right {
     margin-left: 0;
   }
- 
-.Navbar__ToggleShow 
- {
-    display: flex;
-  }
- 
-.Navbar__Link-toggle 
- {
+
+  .Navbar__Link-toggle {
     right: 10px;
     align-self: flex-end;
     display: initial;
     position: absolute;
     cursor: pointer;
-   } 
+  }
 }
 
-body
-{
-  font: 15px/1.5 Arial, Helvetica,sans-serif;
-  padding :0;
+body {
+  padding: 0;
   margin: 0;
   background-color: #f4f4f4;
 }
 
 /* Global */
-.container3
-{
+.container3 {
   width: 80%;
   margin: auto;
   overflow: hidden;
   display: block;
 }
 
-.h2
-{
- text-align: center;
-}
-
-.container1
-{
+.container1 {
   background-image: url(https://images.unsplash.com/photo-1505685296765-3a2736de412f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67802a8a1c82021e7b15b4b0d0938922&auto=format&fit=crop&w=750&q=80);
   background-attachment: fixed;
   background-size: cover;
   height: 400px;
-    /* or whatever width you want. */
+  /* or whatever width you want. */
   display: block;
 }
-   
-footer
-{
+
+footer {
   padding: 20px;
   margin-top: 20px;
   color: #fffafa;
@@ -113,20 +90,7 @@ footer
   text-align: center;
 }
 /* Boxes */
-#boxes
-{
+#boxes {
   margin-top: 50px;
   margin-bottom: 50px;
-}
-
-#boxes .box
-{
-  text-align: center;
-  width: 30%;
-  padding:100px;
-}
-
-#boxes .box img
-{
-  width: 90px;
 }
